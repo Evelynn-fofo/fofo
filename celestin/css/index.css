@@ -1,0 +1,78 @@
+*{
+   font-family: 'roboto', sans-serif;
+   margin:0; padding:0;
+
+}
+body{
+  display: flex;
+  background-color: rgb(222, 222, 222);
+  justify-content: center;
+}
+discover-btn {
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+.body-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto;
+  grid-template-rows: 35% 5% 15% 30%;
+  background-color: rgb(255,255,255);
+  margin-top: 1rem;
+  height: 35rem;
+  width: 80%;
+}
+.offer-container {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto;
+  justify-content: center;
+  background-color: rgb(255, 222, 181);
+  margin-top: 3rem;
+    width: 60rem;
+    height: 8rem;
+}
+.offer-text-center {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+div > h3{
+  margin-top: auto;
+}
+.font {
+  font-weight: 400;
+}
+div > .grey {
+  color: grey;
+}
+.star {
+  margin-left: 10px;
+}
+.rating {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto;
+  width: 20rem;
+  color: rgb(0, 74, 247);
+}
+.computer-name {
+  display: grid;
+  margin-top: 2rem;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto;
+  height: 3rem;
+}
+.line {
+  width: 100%;
+  height: .1rem;
+  background-color: rgb(209, 209, 209);
+}
+.specs{
+  margin-left: 2rem;
+}
+.specs > li {
+  margin: 5px;
+}
